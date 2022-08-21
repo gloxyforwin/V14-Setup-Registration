@@ -19,9 +19,3 @@
 * Eğer altından kalkamadığınız bir hata olursa Gloxy#1000 & [Serendia](https://discord.gg/serendia)
 
 ![alt text](https://i.hizliresim.com/pr523es.png)
-![alt text](https://i.hizliresim.com/df83xqc.png)
-![alt text](https://i.hizliresim.com/lno4i7k.png)
-![alt text](https://i.hizliresim.com/ki38rla.png)
-![alt text](https://i.hizliresim.com/df83xqc.png)
-![alt text](https://i.hizliresim.com/l3lv20a.png)
-![alt text](https://i.hizliresim.com/6aynvtk.png)
