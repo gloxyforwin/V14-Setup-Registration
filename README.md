@@ -17,3 +17,5 @@
 # - İletişim
 
 * Eğer altından kalkamadığınız bir hata olursa Gloxy#1000 & [Serendia](https://discord.gg/serendia)
+
+![image](https://www.hizliresim.com/pr523es)
