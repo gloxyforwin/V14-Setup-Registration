@@ -335,7 +335,7 @@ message.channel.send({embeds: [embedm.setDescription(`${Emojies.Green} \`\`${arg
 if (args[1] === "list" || args[1] === "liste") {
     if (!setupData.tags.length > 0) return message.channel.send({content: `${Emojies.Red} Veritabanında hiç tag bulunmuyor!`})
     const tags = setupData.tags.map(((value, index) => `\`\`• ${index + 1}:\`\` **${value}**`)).join("\n")
-    message.channel.send({embeds: [embedm.setDescription(`${Emojies.Green} Veritabanımda bu sunucuya ait \`\`${setupData.tags.length + 1}\`\` adet tag bulunuyor; \n\n ${tags}`)]})
+    message.channel.send({embeds: [embedm.setDescription(`${Emojies.Green} Veritabanımda bu sunucuya ait \`\`${setupData.tags.length}\`\` adet isim tagı bulunuyor; \n\n ${tags}`)]})
 }
 }
 
