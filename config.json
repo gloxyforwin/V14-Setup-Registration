@@ -1,0 +1,12 @@
+{
+    "Bot": {
+        "Token": "MTAwNjY1OTM4ODQ3MzM1MjMxMw.G7fa4h.q6VM25p4HFQ9Hbm0zTnrW_28uQ_l5Bb_7mWGH4",
+        "Prefix": ".",
+        "GuildID": "1003625867076964402",
+        "VoiceChannelID": "1003631555744374844",
+        "MongoURL": "mongodb+srv://gloxy:gloxy@cluster0.zjojxyd.mongodb.net/V14REGISTER?retryWrites=true&w=majority",
+        "OwnersID": ["999339735057178734"],
+        "Activity": "Gloxy Tarafından Geliştirilmekteyim!",
+        "Status": "idle"
+    }
+}
