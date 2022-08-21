@@ -10,7 +10,7 @@ const conf = require("../../config.json")
 
 const activity = conf.Bot.Activity
 client.user.setPresence({activities: [{name: conf.Bot.Activity}], status: conf.Bot.Status})
-console.log("[+] Bota " + client.user.username + " adıyla giriş yapıldı!");
+console.log("[BOT] Bota başarıyla giriş yapıldı!");
 
     joinVoiceChannel({
       channelId: conf.Bot.VoiceChannelID,
