@@ -47,7 +47,7 @@ interaction.reply({content:
         
 - \`\`Tags:\`\`
 - Name Tags: **.setup nameTag [ekle/kaldır/liste]** \`\`<TAG>\`\`
-- Discriminator Tag: **.setup discriminator [ekle/kaldır]** \`\`<#0000>\`\``, ephemeral:true})
+- Discriminator Tag: **.setup discriminator** \`\`<0000>\`\``, ephemeral:true})
 }
 
 if (interaction.customId === "durum") { 
