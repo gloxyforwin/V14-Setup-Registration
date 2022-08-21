@@ -28,6 +28,7 @@ client.on("userUpdate", async (o, n) => {
 	const data2 = await guild.findOne({guildID: config.Bot.GuildID})
 	const tags = [data.tags, data.disc]
 	const taglog = client.guilds.cache.get("1003625867076964402").channels.cache.get(data.tagLog)
+	const aktiftaglı = client.guilds.cache.get("1003625867076964402").members.cache.filter(gloxy => tags.some(x => gloxy.user.tag.includes(x))).size
 	//if (o.member.bot) return;
 	if (o.tag === n.tag) return;
 
@@ -41,7 +42,7 @@ client.on("userUpdate", async (o, n) => {
 		
 • Kişinin ID'si: \`\`${n.id}\`\`
 		
-• Aktif Taglı Sayısı: \`\`${o.id}\`\``)]})
+• Aktif Taglı Sayısı: \`\`${aktiftaglı}\`\``)]})
 }
 if (tags.some(y => o.tag.includes(y) && !n.tag.includes(y))) {
 
@@ -55,6 +56,6 @@ taglog.send({embeds: [new Discord.EmbedBuilder().setColor("#000001").setDescript
 			
 • Kişinin ID'si: \`\`${o.id}\`\`
 			
-• Aktif Taglı Sayısı: \`\`${o.id}\`\``)]})
+• Aktif Taglı Sayısı: \`\`${aktiftaglı}\`\``)]})
 }
 })
