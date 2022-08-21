@@ -18,4 +18,4 @@
 
 * Eğer altından kalkamadığınız bir hata olursa Gloxy#1000 & [Serendia](https://discord.gg/serendia)
 
-[url=https://www.hizliresim.com/pr523es][img]https://i.hizliresim.com/pr523es.png[/img][/url]
+[img](https://i.hizliresim.com/pr523es.png)
