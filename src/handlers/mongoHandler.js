@@ -9,7 +9,7 @@ useUnifiedTopology: true
 })
 
 mongoose.connection.on("connected", () => {
-console.log("[MONGO] Mongoose bağlantısı kuruldu!");
+console.log("[DB] Mongoose bağlantısı kuruldu!");
 
 })
 }
