@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const config = require("../../config.json")
-
+const setup = require("../schemas/setupData")
 const { EmbedBuilder } = require("discord.js");
 
 const moment = require("moment")
@@ -13,10 +13,10 @@ moment.locale("tr")
 
 module.exports = async (message,client) => {
 
-
+const data = await setup.findOne({guildID: message.guild.id})
 if (message.content.toLowerCase() === ".tag" || 
 message.content.toLowerCase() === "tag" || 
-message.content.toLowerCase() === "!tag") return message.reply({content: ""})
+message.content.toLowerCase() === "!tag") return message.reply({content: `İsim taglarımız: **${data.tags.map(((value) => `${value}`)).join(" **|** ")}`})
 let prefix = config.Bot.Prefix
 
 if (!message.content.startsWith(prefix) || message.author.bot) return;
